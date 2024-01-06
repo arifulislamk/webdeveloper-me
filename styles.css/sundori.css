@@ -1,0 +1,73 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header releted styles */
+.header {
+    color: rgb(114, 8, 121);
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    flex-shrink: 0;
+}
+
+.header-contant {
+    padding: 50px;
+    /* display: flex; */
+    text-align: right;
+    margin-left: 900px;
+    padding-top: 50px;
+}
+
+.header-title {
+    color: #151414;
+    font-size: 65px;
+    max-width: 525px;
+}
+
+.header-discription {
+    color: #444343;
+    font-size: 16px;
+    width: 494px;
+    padding-right: 200px;
+
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 64px;
+}
+
+/* main faillor releted style */
+.previus-faillor {
+    background-image: url('../images/person.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    width: 451px;
+    height: 898px;
+    
+}
+
+.faillor-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: right;
+    margin-left: 900px;
+}
+
+.faillor {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+    
+}
